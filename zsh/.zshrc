@@ -112,3 +112,9 @@ alias vim=nvim
 ## Completion scripts setup. Remove the following line to uninstall
 [[ -f /Users/thanakorn.k/.dart-cli-completion/zsh-config.zsh ]] && . /Users/thanakorn.k/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
+#
+#
+## Setup python version manager
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

@@ -28,3 +28,6 @@ brew install python
 # install black formatter for python
 pip3 install black
 
+# install python version manager
+brew install pyenv
+
